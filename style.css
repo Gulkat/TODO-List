@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+.root {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 650px;
+    margin: 100px auto;
+    padding: 20px 30px 40px;
+    border: 2px solid #000;
+    border-radius: 15px;
+    background-color: #bcbcbc;
+}
+.button {
+    border: 2px solid #000;
+    background-color: aquamarine;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 150px;
+    min-height: 50px;
+    cursor: pointer;
+}
+.button:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+.input {
+    border: 2px solid #000;
+    background-color: #fff;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+    min-width: 250px;
+}
+.dataElement {
+    position: relative;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 20px 20px 20px 60px;
+    background-color: #bcbcbc;
+    width: 100%;
+    margin-top: 20px;
+}
+.check {
+    position: absolute;
+    top: 33%;
+    left: 10px;
+    border: 2px solid #000;
+    background-color: aquamarine;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+.check:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+
+.textTodo {
+    border: 2px solid #fff;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+    width: 80%;
+    font-size: 16px;
+    font-style: italic;
+}
+.button__closed {
+    border: 2px solid #000;
+    background-color: aquamarine;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 15px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.button__closed:hover {
+    transform: scale(1.1);
+    font-weight: 700;
+}
+.date {
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: white;
+    padding: 0 10px;
+    position: absolute;
+    right: 10px;
+    top: 50px;
+}
+.textDecoration {
+    text-decoration: line-through;
+    background-color: orange;
+}
